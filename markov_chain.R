@@ -1,7 +1,3 @@
-path <- "/home/manish/Desktop/ML_Challenge_Creatives/ZS YOUNG/YDS-dataset/"
-setwd(path)
-
-
 # Load data and libraries -------------------------------------------------
 
 library(data.table)
@@ -55,16 +51,3 @@ for(i in 1:nrow(final_prediction))
 
 final_prediction[,Event := NULL]
 fwrite(final_prediction,"markov_preds.csv")
-
-
-
-
-
-
-
-
-
-
-
-
-
