@@ -1,3 +1,7 @@
+# This is a first order markov chain model. This script should give you fair idea about how to get started with MC models. 
+# You can try building second, third order mc models. 
+
+
 # Load data and libraries -------------------------------------------------
 
 library(data.table)
